@@ -13,7 +13,7 @@ import TraditionalClock from './TraditionalClock'
 
 ### Syntax
 Looks like this:
-<TraditionalClock size='100' colour'pink' />
+<TraditionalClock size='100' colour='pink' />
 
 Created object will be:
 
