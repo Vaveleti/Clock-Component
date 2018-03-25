@@ -1,6 +1,9 @@
 
 # Traditional Clock Component
-WORK IN PROGRESS
+
+### Status
+
+Work in progress.
 
 
 ### What is this?
