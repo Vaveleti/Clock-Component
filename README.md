@@ -1,5 +1,7 @@
 
 # Traditional Clock Component
+## WORK IN PROGRESS
+
 
 ### What is this?
 
@@ -26,4 +28,5 @@ Created object will be:
 
 ### Usage
 read LICENSE.md
+
 
