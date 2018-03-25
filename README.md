@@ -13,9 +13,9 @@ import TraditionalClock from './TraditionalClock'
 
 ### Syntax
 Looks like this:
+```html
 <TraditionalClock size='100' colour='pink' />
-
-<h1> ey no </h1>
+```
 
 Created object will be:
 
