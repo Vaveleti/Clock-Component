@@ -27,8 +27,3 @@ Created object will be:
 read LICENSE.md
 
 
-<style>
-  h1{
-    text-align: center;
-  }
-  </style>
