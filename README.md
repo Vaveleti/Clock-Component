@@ -1,11 +1,5 @@
 
-<html>
-  <head>
-    <style>
-    </style>
-   </head>
-  
-  <h1>Traditional Clock Component</h1>
+# Traditional Clock Component
 
 ### What is this?
 
@@ -32,7 +26,4 @@ Created object will be:
 
 ### Usage
 read LICENSE.md
-
-  </html>
-
 
