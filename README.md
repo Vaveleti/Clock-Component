@@ -1,5 +1,10 @@
 
 <html>
+  <head>
+    <style>
+    </style>
+   </head>
+  
   <h1>Traditional Clock Component</h1>
 
 ### What is this?
