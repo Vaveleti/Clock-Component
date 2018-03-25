@@ -25,3 +25,10 @@ Created object will be:
 
 ### Usage
 read LICENSE.md
+
+
+<style>
+  h1{
+    text-align: center;
+  }
+  </style>
