@@ -1,6 +1,6 @@
 
 # Traditional Clock Component
-## WORK IN PROGRESS
+WORK IN PROGRESS
 
 
 ### What is this?
