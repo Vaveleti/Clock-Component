@@ -14,9 +14,10 @@ var secondHandStyle = {
   width: '10px',
   backgroundColor: 'red',
   borderRadius: '5px',
-  position: 'absolute',
-  marginLeft: '47.5px',
-  marginTop: '10px'
+  position: 'relative',
+  left: '47.5px',
+  top: '10px',
+  transformOrigin: '2.5px bottom',
 }
 
 class TraditionalClock extends React.Component{
@@ -26,7 +27,8 @@ class TraditionalClock extends React.Component{
     this.state = {
       date: new Date(),
       size: props.size,
-      colour: props.colour
+      colour: props.colour,
+      degS: 0
     };
 
     clockStyle.height = this.state.size + 'px ';
@@ -38,6 +40,7 @@ class TraditionalClock extends React.Component{
 
   componentDidMount(){
     this.timer = setInterval(() => this.timerTick(), 1000);
+        this.timerTick();
   }
 
   componendWillunmount(){
@@ -45,14 +48,22 @@ class TraditionalClock extends React.Component{
   }
 
   timerTick(){
-    this.setState({date: new Date()});
+    this.setState(
+      {date: new Date(),
+        degS: this.state.date.getSeconds()*6
+      }
+    );
     /*console.log(this.state.date.getHours() + ':'
      + this.state.date.getMinutes() + ':' +
      this.state.date.getSeconds());*/
   }
 
   render(){
-    return (<div style={clockStyle}><div style={secondHandStyle}></div></div>);
+    return (
+      <div style={clockStyle}>
+        <div style={Object.assign(secondHandStyle, {transform: 'rotate('+ String(this.state.degS) +'deg)'})}>
+        </div>
+      </div>);
   }
 };
 
