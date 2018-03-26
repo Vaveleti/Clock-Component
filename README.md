@@ -1,19 +1,27 @@
+
 # Traditional Clock Component
 
-###What is this?
+### Status
+
+Work in progress.
+
+
+### What is this?
 
 This component is clock, shows hours, minutes and seconds. Variables you can change:
 
 - Size
 - Colour
 
-###Importing
+### Importing
 
 import TraditionalClock from './TraditionalClock'
 
-###Syntax
+### Syntax
 Looks like this:
-<TraditionalClock size='100' colour'pink' />
+```html
+<TraditionalClock size='100' colour='pink' />
+```
 
 Created object will be:
 
@@ -21,5 +29,7 @@ Created object will be:
 - 100px wide
 - pink
 
-##Usage
+### Usage
 read LICENSE.md
+
+
