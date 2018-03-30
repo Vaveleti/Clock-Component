@@ -3,7 +3,7 @@
 
 ### Status
 
-Work in progress.
+Work in progress, almost ready to use!
 
 
 ### What is this?
